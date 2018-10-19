@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+<body>
+    
+ <div id="left-panel">
+        <nav class="navbar">
+
+                <div class="navbar-header">
+                    
+                    <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Logo"></a>
+                    <img id="admin" class="admin" src="images/admin.jpg" alt="Logo">
+                    
+                    <div id="caption" >Welcome,
+                        
+                        <br> Bechri Rokaya</div>
+                        <br><B>Rokaya</B> 
+                    <br>
+                    
+                </div>
+                <div id="main-menu" class="main-menu collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="index.html"> <i class="menu-icon fa fa-home"></i>User management </a>
+                                
+                                <ul class="sub-menu children dropdown-menu">
+                                        <li><a href="addUser.html">Add user</a></li>
+                                        
+                                        </ul>
+                            </li>
+                                            
+            
+                               
+                                
+                            </ul>
+                            </div>
+
+ </div>
+ <div id="right-panel">
+
+        <div class="col-sm-5">
+                <div class="user">
+                    <img class="profil" src="images/admin.jpg" alt="User Avatar">
+                </div>
+
+                <div class="menu">
+                        <i class="fa fa-bars"></i>                    
+              </div>
+
+                <div class="message">
+                        
+                          <i class="fa fa-envelope"></i>
+                          
+       
+                </div>
+          </div> 
+    
+        
+         <div class="number"><h2>User management</h2></div>
+
+            
+
+            
+            
+                    
+                               
+
+        
+         
+
+<article id="formulaire">
+ 
+    
+    <form id="form">
+        <label class="id">ID</label>
+        <input class="id" type="text" disabled name="fname" id="ID"><br>
+     
+
+        <label for="exampleInputEmail1">First name</label> 
+         <input  class="form-control" type="text" name="fname" id="firstname"><br>
+       
+
+        <label for="exampleInputEmail1">Last name</label>
+         <input class="form-control" type="text" name="lname" id="lastname"><br>
+        
+        <label for="exampleInputEmail1">Email</label>
+       <input class="form-control" type="text" name="email" id="email"><br>
+       
+        <label for="exampleInputEmail1"> Date of birthday</label>
+       <input class="form-control" type="date" id="date"><br>
+        
+        <label for="exampleInputEmail1"> Password</label>
+       <input class="form-control" type="text" id="pwd"><br>
+        
+        <p id="list"></p>
+       
+        <button class="btn btn-default"  type="button" onclick="Add()" value="Submit">Add</button>
+        <button class="btn btn-default"  type="button" onclick="lister()" value="Submit">Show all</button>
+        <button class="btn btn-default"  type="button" onclick="edit()" value="Submit">Update</button> 
+
+
+
+    </form>
+    
+    <script type="text/javascript" src="fonction.js"></script>
+
+
+    <div id="dvcontainer">
+    </div>
+
+</article>
+
+
+    
+</body>
+</html>
