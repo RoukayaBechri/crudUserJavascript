@@ -1,0 +1,213 @@
+#login-body {
+    background-color: #f7f7f7 ;
+   
+    
+        margin: 0;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333;
+        background-color: #fff;
+    }
+    .login-header {
+        background: url("images/top-bg.jpg") repeat-x;
+        border-width: 0;
+        height: 60px;
+        text-align: center;
+    }
+    #logo {
+        width: 247px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #login span.add-on {
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        padding: 10px;
+        color: #828283;
+        text-shadow: none;
+        margin: -8% 0% -7% 2%;
+    }
+    
+    #login {
+        background: #e3e3e3;
+        box-shadow: 1px 0 1px #FFFFFF, 0 0 3px rgba(0, 0, 0, 0.2) inset;
+        -moz-box-shadow: 1px 0 1px #FFFFFF, 0 0 3px rgba(0, 0, 0, 0.2) inset;
+        -webkit-box-shadow: 1px 0 1px #FFFFFF, 0 0 3px rgba(0, 0, 0, 0.2) inset;
+        width: 370px;
+        margin: 150px auto 0;
+        padding: 20px;
+    }
+    .input-prepend .add-on {
+        display: inline-block;
+        width: auto;
+        height: 20px;
+        min-width: 16px;
+        padding: 4px 5px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+        text-align: center;
+        text-shadow: 0 1px 0 #fff;
+        background-color: #eee;
+        border: 1px solid #ccc;
+    }
+    .input-append, .input-prepend {
+        display: inline-block;
+        margin-bottom: 10px;
+        /* font-size: 0; */
+        white-space: nowrap;
+        vertical-align: middle;
+    }
+    #login .control-group {
+        margin-bottom: -11px;
+    }
+    .control-group {
+        margin-bottom: 10px; 
+    }
+    
+    .input-append .add-on, .input-prepend .add-on {
+        display: inline-block;
+        width: auto;
+        height: 20px;
+        min-width: 16px;
+        padding: 4px 5px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+        text-align: center;
+        text-shadow: 0 1px 0 #fff;
+        background-color: #eee;
+        border: 1px solid #ccc;
+    }
+    
+    h4 {
+        display: block;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        font-size: 17.5px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+    }
+    .control-wrap {
+        width: 266px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin: 2% 65% 5% 0%;
+        text-align: center;
+       
+        font-family: inherit;
+        font-weight: bold;
+        line-height: 20px;
+        color: inherit;
+        text-rendering: optimizelegibility;
+    }
+    #login .lock {
+        width: 100px;
+        float: left;
+        margin-top: 28px;
+        font-size: 110px;
+        vertical-align: middle;
+    }
+    .icon-lock:before {
+        content: "\f023";
+    }
+    body {
+        color: #868686;
+        margin: 0;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+       
+        background-image: url("images/body-bg.png") ;
+        
+    }
+    .input-append .add-on, .input-prepend .add-on {
+        display: inline-block;
+        width: auto;
+        height: 20px;
+        min-width: 16px;
+        padding: 4px 5px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+        text-align: center;
+        text-shadow: 0 1px 0 #fff;
+        background-color: #eee;
+        border: 1px solid #ccc;
+    }
+    
+    
+    
+    #login input {
+        padding: 13px;
+        border: 1px solid #ddd;
+    }    
+
+    input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
+        width: 100%;
+    }
+    .no-margin {
+        margin: 0px !important;
+    }
+    .control-wrap {
+        width: 266px;
+        display: inline-block;
+        margin-bottom: 15px;
+        margin: 0% 1% 1% -2%;
+    }
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    [class^="icon-"], [class*=" icon-"] {
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: inherit;
+        display: inline;
+        width: auto;
+        height: auto;
+        line-height: normal;
+        vertical-align: baseline;
+        background-image: none !important;
+        background-position: 0% 0%;
+        background-repeat: repeat;
+    }
+
+    .login-btn {
+        background: url("images/login-btn.jpg");
+        border: none;
+        box-shadow: 1px 0 1px #FFFFFF, 0 0 3px rgba(0, 0, 0, 0.2) inset;
+        -moz-box-shadow: 1px 0 1px #FFFFFF, 0 0 3px rgba(0, 0, 0, 0.2) inset;
+        -webkit-box-shadow: 1px 0 1px #FFFFFF, 0 0 3px rgba(0, 0, 0, 0.2) inset;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        font-size: 16px;
+        color: #fff;
+        text-shadow: none;
+        padding: 10px 0;
+    }
+    .small {
+        font-size: 11px !important;
+    }
+    #login #forget-password {
+        font-size: 11px;
+    }
+    .input-username{
+        display: block;
+        margin: -10% 0% 1% 68%;
+    }
+    

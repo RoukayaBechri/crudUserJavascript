@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+   <meta charset="utf-8" />
+   <title>AddTasks</title>
+  
+   <link href="styles.css" rel="stylesheet" />
+   <link href="style.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="fixed-top">
+   <!-- BEGIN HEADER -->
+   <div id="header" class="navbar navbar-inverse navbar-fixed-top">
+       <!-- BEGIN TOP NAVIGATION BAR -->
+       <div class="navbar-inner">
+           <div class="container-fluid">
+               <!-- BEGIN LOGO -->
+               <a class="brand" href="index.html">
+                    <img src="images/logo.png" alt="Admin Lab" />
+               </a>
+               <!-- END LOGO -->
+               <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+               <a class="btn btn-navbar collapsed" id="main_menu_trigger" data-toggle="collapse" data-target=".nav-collapse">
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="arrow"></span>
+               </a>
+               <!-- END RESPONSIVE MENU TOGGLER -->
+               <div id="top_menu" class="nav notify-row">
+                   <!-- BEGIN NOTIFICATION -->
+                   <ul class="nav top-menu">
+                      
+                       
+                       <!-- BEGIN NOTIFICATION DROPDOWN -->
+                       <li class="dropdown" id="header_notification_bar">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+                               <i class="fa fa-bell-alt"></i>
+                               
+                           </a>
+                          
+               </div>
+               <!-- END  NOTIFICATION -->
+               <div class="top-nav ">
+                   <ul class="nav pull-right top-menu" >
+                      
+                       <!-- BEGIN USER LOGIN DROPDOWN -->
+                       <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                               <img src="images/admin.jpg" alt="">
+                               <span class="username"><a href="loggin.html"><i class="icon-key"></i> Log Out</a></span>
+                               <b class="caret"></b>
+                           </a>
+                           
+                       </li>
+                       <!-- END USER LOGIN DROPDOWN -->
+                   </ul>
+                   <!-- END TOP NAVIGATION MENU -->
+               </div>
+           </div>
+       </div>
+       <!-- END TOP NAVIGATION BAR -->
+   </div>
+   <!-- END HEADER -->
+   <!-- BEGIN CONTAINER -->
+   <div id="container" class="row-fluid">
+      <!-- BEGIN SIDEBAR -->
+      <div id="sidebar" class="nav-collapse collapse">
+
+         <div class="sidebar-toggler hidden-phone"></div>   
+
+         <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+        
+         <!-- END RESPONSIVE QUICK SEARCH FORM -->
+         <!-- BEGIN SIDEBAR MENU -->
+            <ul class="sidebar-menu">
+        
+        
+        
+               
+               
+                
+
+        <li><a class="" href="profile.html"><span class="icon-box"><i class="fa fa-coffee"></i></span> Profil</a></li>
+        <li class="has-sub">
+          <a href="javascript:;" class="">
+          <span class="icon-box"><i class="fa fa-tasks"></i></span> Users management
+          <span class="arrow"></span>
+          </a>
+          
+        </li>
+       </ul>
+         <!-- END SIDEBAR MENU -->
+      </div>
+      <!-- END SIDEBAR -->
+      <!-- BEGIN PAGE -->  
+      <div id="main-content">
+         <!-- BEGIN PAGE CONTAINER-->
+         <div class="container-fluid">
+            <!-- BEGIN PAGE HEADER-->   
+            <div class="row-fluid">
+               <div class="span12">
+                  
+                  <h3 class="page-title">
+                     Add User
+                     <small>Add necessary details </small>
+                  </h3>
+                   
+               </div>
+            </div>
+            <!-- END PAGE HEADER-->
+            <!-- BEGIN PAGE CONTENT-->
+            <div class="row-fluid">
+                <div class="span12 sortable">
+                    <!-- BEGIN SAMPLE FORMPORTLET-->
+                    <div class="widget">
+                        <div class="widget-title">
+                            
+                                        
+                        </div>
+                        <div class="widget-body">
+                            <!-- BEGIN FORM-->
+                           
+                            <form id="form">
+                                    <label class="id">ID</label>
+                                    <input class="id" type="text" disabled name="fname" id="ID"><br>
+                                 
+                            
+                                    <label for="exampleInputEmail1">First name</label> 
+                                     <input  class="form-control" type="text" name="fname" id="firstname"><br>
+                                   
+                            
+                                    <label for="exampleInputEmail1">Last name</label>
+                                     <input class="form-control" type="text" name="lname" id="lastname"><br>
+                                    
+                                    <label for="exampleInputEmail1">Email</label>
+                                   <input class="form-control" type="text" name="email" id="email"><br>
+                                   
+                                    <label for="exampleInputEmail1"> Date of birthday</label>
+                                   <input class="form-control" type="date" id="date"><br>
+                                    
+                                    <label for="exampleInputEmail1"> Password</label>
+                                   <input class="form-control" type="text" id="pwd"><br>
+                                    
+                                    <p id="list"></p>
+                                   
+                                    <button class="btn btn-default"  type="button" onclick="Add()" value="Submit">Add</button>
+                                    <button class="btn btn-default"  type="button" onclick="lister()" value="Submit">Show all</button>
+                                    <button class="btn btn-default"  type="button" onclick="edit()" value="Submit">Update</button> 
+                            
+                            
+                            
+                                </form>
+                            
+                            
+                            
+                            <div id="dvcontainer">
+                            </div>  
+                                
+                               
+                              
+                                  
+                            <!-- END FORM-->
+                        </div>
+                    </div>
+                    <!-- END SAMPLE FORM PORTLET-->
+                </div>
+            </div>
+
+            <!-- END PAGE CONTENT-->         
+         </div>
+         <!-- END PAGE CONTAINER-->
+      </div>
+      <!-- END PAGE -->  
+   </div>
+   <!-- END CONTAINER -->
+   <!-- BEGIN FOOTER -->
+   <div id="footer">
+      <div class="span pull-right">
+         <span class="go-top"><i class="icon-arrow-up"></i></span>
+      </div>
+   </div>
+  
+  
+   <script type="text/javascript" src="fonction.js"></script>   
+     
+</body>
+</html>
